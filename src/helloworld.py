@@ -1,4 +1,7 @@
-output = open("result.txt",'w')
+import os
+
+os.mkdir("output")
+output = open("./output/result.txt",'w')
 output.write("gaga")
 output.close()
 
